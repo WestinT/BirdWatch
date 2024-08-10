@@ -56,5 +56,6 @@ for n in reg_list:
         print('Not Airborne')
         print('\n')
 
+##TEST
     
     
