@@ -10,7 +10,7 @@ A list of registration numbers associated with Northern California law enforceme
 Utilizing the list of aircraft registration numbers, we are able to determine whether or not specific aircraft are airborne as well as their current location using the airplanes.live API. We can then use the reverse_geocoder library to determine the closest City, County, and State that these aircraft may be near to mimic the warning that many map applications provide. 
 
 ### Requirements
-Python with Pandas and reverse_geocoder library. Additionally, if you would like to add airplane registration numbers of your own, you will need a spreadsheet editor such as Excel, Google Sheets, or Numbers to edit the Registrations.csv file.
+Python with Pandas, Requests, and reverse_geocoder library. Additionally, if you would like to add airplane registration numbers of your own, you will need a spreadsheet editor such as Excel, Google Sheets, or Numbers to edit the Registrations.csv file.
 
 ### How to Use
 Download the files titled “Plane Reg Csv.py” and “Registrations.csv”. Ensure both of these files are in the same folder as one another before running the script in “Plane Reg Csv.py”. Running the script will print the contents of the .csv file, and then check each registration number one by one with results indicating the location of the aircraft, or a message stating “Not Airborne” for aircraft that are not currently in the air. 
